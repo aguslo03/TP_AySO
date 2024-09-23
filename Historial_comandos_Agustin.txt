@@ -1,0 +1,92 @@
+su
+sudo apt update
+visudo
+su
+sudo apt update
+visudo
+sudo visudo
+sudo apt install terminator
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+ls
+cd repogit
+git clone git@github.com:aguslo03/TP_AySO.git
+apt install git
+sudo apt install git
+git clone git@github.com:aguslo03/TP_AySO.git
+ls
+cd TP_AySO/
+pwd
+ls -l 
+cat /etc/os-release
+/etc/os-release
+man grep 
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+man grep 
+grep <p-i> Home_url /etc/os-release
+grep -i Home_url /etc/os-releasee
+grep -i Home_url /etc/os-release
+/ls
+-ls
+ls
+repogit
+cd repogit
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep <parámetro> Home_url /etc/os-release
+grep <parámetro> Home_url /etc/os-release[Bse
+grep -i  Home_url /etc/os-release
+whoami 
+echo “Usuario=$(whoami)” > datos_usuario.txt
+echo "Usuario=$(whoami)" >  datos_usuario.txt 
+git add
+git add.
+git add .
+git config --global user.email "TU-email"
+git config --global user.email "agustinoeja007@gmail.com"
+git config --global user.name "aguslo03"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt
+"
+git status 
+grep
+grep "model name" /proc/cpuinfo | head -n1 >> archivo_cpuinfo.txt
+git add archivo_cpuinfo.txtgit commit -m "feat: Añadiendo información de CPU"
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git add lista_ordenadagit commit -m "ADD: Listado de usuarios ordenado"
+git commit -m "ADD: Listado de usuarios ordenado"
+echo "tcpdump" > comando_dump_net
+echo "man -k traffic" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << EOF >> README.mdAlumno: <Tu-Nombre>División: <Tu-División>Turno: <Turno>EOF
+
+
+"
+EOF
+
+cat << EOF >> README.mdAlumno: Agustin División: 304 Turno: noche EOF
+EOF
+
+cat << EOF >> README.mdAlumno: Agustin División: 304 Turno: noche EOF
+EOF
+
+cat << EOF >> README.md
+Alumno: Agustin 
+Division:304 
+Turno:noche 
+EOF
+
+git add README.md
+git commit -m "docs: Agregada información del alumno"
+history -a
