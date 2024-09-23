@@ -1,0 +1,9 @@
+agus:x:1000:1000:agus,,,:/home/agus:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+hplip:x:127:7:HPLIP system user,,,:/run/hplip:/bin/false
+lightdm:x:115:122:Light Display Manager:/var/lib/lightdm:/bin/false
+speech-dispatcher:x:119:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+whoopsie:x:117:125::/nonexistent:/bin/false
+sync:x:4:65534:sync:/bin:/bin/sync
